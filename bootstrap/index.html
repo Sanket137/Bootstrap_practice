@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+
+    <style>
+        .bg-success {
+            background-image: var(--bs-gradient);
+        }
+        .title{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        .para{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+        .para-content{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.35rem;
+        }
+
+
+        .container{
+           width: 850px;
+        }
+        .web-dev{
+            width: 200px;
+        }
+        
+
+
+
+
+    </style>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Bootstrap utlities
+
+    01.Background -->
+    <div class="p-2 mt-2 mb-2 bg-primary text-dark"> bg-primary txt-dark </div>
+    <div class="p-3 mt-3 bg-dark text-primary">bg-dark txt-primary</div>
+    <div class="p-3 mb-4 bg-warning text-dark">bg-yellow txt-black</div>
+
+    <div class="bg-transparent  p-3 text light ">bg-success bg gradient</div>
+
+    <div class="bg-warning p-2 m-2 bg-opacity-50"> bg-waring bg-opacity-50</div>
+
+    <div class="bg-success p-2 m-2 text-white bg-opacity-75">bg-green opacity-75</div>
+
+    <div class="bg-dark p-2 m-2 text-white bg-opacity-30">bg-green opacity-75</div>
+
+    <div class="bg-danger p-2 m-2 text-white bg-opacity-50">bg-green opacity-75</div>
+
+
+
+    <!-- 02. Border -->
+    <div class="bg-primary p-2 text-dark">bg-dark border txt-light
+    </div>
+
+    <!-- 03. color -->
+    <h2 class="text-primary">This is text color </h2>
+
+
+    <p class="text-white bg-dark">.text-white-50</p>
+    <p class="text-white-50 bg-dark">.text-white-50</p>
+
+
+    <!-- 04. display -->
+
+    <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+    <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+ 
+    
+
+    <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+    <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+
+    <div class="d-block p-2 mt-4 mb-3 bg-primary text-white ">d-block</div>
+    <div class="d-block p-2 mb-2 bg-dark text-white ">d-block</div>
+
+
+    
+
+
+        <!-- 05. flex  -->
+
+
+            <!-- 5.1 title using d-flex -->
+
+    <div class="d-flex justify-content-center align-items-center">
+        <div><img class="p-0 p-sm-2 p-md-3 p-lg-5" src="img/profile.png" alt=""></div>
+        
+        <div>
+        <h1 class="ps-1 ps-sm-2 ps-md-3 ps-lg-5 title">I'm Sanket Shende</h1>
+        <p class="d-block ps-1 ps-sm-2 ps-md-3 ps-lg-5 para" >web developer</p>
+        </div>
+
+    </div> 
+        
+
+
+            <!-- 5.2 content using CONTAINER -->
+
+    <div class=" container mb-5 justify-content-center align-items-center">
+        <p class="para-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias nobis est optio officiis quam tenetur sapiente assumenda iure voluptas, odit consequatur praesentium recusandae fugiat? Fugiat accusantium esse repellat nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias nobis est optio officiis quam tenetur sapiente assumenda iure voluptas, odit consequatur praesentium recusandae fugiat? Fugiat accusantium esse repellat nemo!</p>
+
+    </div>           
+
+
+
+
+            <!-- 5.3 content using d-flex -->
+
+
+            <!-- left-align-content -->
+
+    <div class="container mt-5  d-flex justify-content-center align-items-center"> 
+       
+       <div><img class="web-dev" src="img/web-development.png" alt="web-devloper"></div>
+        
+        <div>
+        <h3 class="ps-4">Web-development</h3>
+        <p class="ps-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eligendi voluptate assumenda repellendus obcaecati. Ea facilis molestias harum soluta tenetur iste, eligendi aut, enim numquam recusandae laboriosam quidem porro rem.</p>
+        </div>
+       
+    </div>
+
+            <!-- right-align-content -->
+   <div class="container mt-5  d-flex flex-reverse justify-content-center align-items-center"> 
+
+    <div>
+        <h3 class="pe-4 text-end">Designer</h3>
+        <p class="pe-4 text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eligendi voluptate assumenda repellendus obcaecati. Ea facilis molestias harum soluta tenetur iste, eligendi aut, enim numquam recusandae laboriosam quidem porro rem.</p>
+    </div>
+       
+    <div><img class="web-dev" src="img/designer.png" alt="designer"></div>
+     
+    </div>
+
+            <!-- left-align-content -->
+    <div class="container mt-5  d-flex justify-content-center align-items-center"> 
+       
+        <div><img class="web-dev" src="img/man.png" alt="web-devloper"></div>
+         
+         <div>
+         <h3 class="ps-4">Problem solver</h3>
+         <p class="ps-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eligendi voluptate assumenda repellendus obcaecati. Ea facilis molestias harum soluta tenetur iste, eligendi aut, enim numquam recusandae laboriosam quidem porro rem.</p>
+         </div>
+        
+     </div>
+
+    
+    
+    
+        
+        
+    
+   
+
+    <div class="d-flex p-2">I'm a flexbox container!</div>
+    <div class="d-flex p-2">I'm a flexbox second container!</div>
+
+    <div class="d-flex flex-row mb-3 border">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+      </div>
+    <div class="d-flex flex-row-reverse border">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+      </div>
+
+
+    <div class="d-flex border p-3 m-3 justify-content-center align-items-center">
+        flex_item_1
+    </div>
+
+
+    <div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+    <div class="d-inline-flex p-2">I'm an inline flexbox  second container!</div>
+
+
+
+    <!-- 06. Float -->
+
+    <div class="float-start">Float start on all viewport sizes</div><br>
+    <div class="float-end">Float end on all viewport sizes</div><br>
+    <div class="float-none">Don't float on all viewport sizes</div>
+
+
+    <div class="float-sm-start">Float start on viewports sized SM (small) or wider</div><br>
+    <div class="float-md-start">Float start on viewports sized MD (medium) or wider</div><br>
+    <div class="float-lg-start">Float start on viewports sized LG (large) or wider</div><br>
+    <div class="float-xl-start">Float start on viewports sized XL (extra-large) or wider</div><br>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
